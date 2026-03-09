@@ -1,5 +1,3 @@
-package hammurabi;
-
 import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
@@ -96,7 +94,7 @@ public class Hammurabi {
 
     int coinFlipGamble(int grain){
 
-        System.out.println("\n0 great Hammurabi, would you like to gamble? ");
+        System.out.println("\nHello there great Hammurabi, would you like to gamble? ");
         System.out.println(" You have " + grain + " bushels in storage. ");
         int bet = getNumber(" How many bushels do you wish to bet?(0 to skip) ");
 
@@ -283,7 +281,7 @@ public class Hammurabi {
         System.out.println("That is " + acres / population + " acres per person.");
 
         if (avgPercentStarved > 33 || acres / population < 7) {
-            System.out.println("DUE TO THIS EXTREME MISMANAGEMENT YOU HAVE BEEN THROWN OUT OF OFFICE!");
+            System.out.println("DUE TO THIS EXTREME MISMANAGEMENT YOU HAVE BEEN THROWN OUT OF OFFICE TRUMP WILL TAKE YOUR PLACE !");
         } else if (avgPercentStarved > 10 || acres / population < 9) {
             System.out.println("Your heavy-handed performance smacks of Nero. The people hate your guts!");
         } else if (avgPercentStarved > 3 || acres / population < 10) {
